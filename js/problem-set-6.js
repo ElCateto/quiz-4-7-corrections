@@ -41,6 +41,8 @@ ctx.clearRect(0, 0, canvas1.width, canvas1.height);
  */
 
 function drawRectangle() {
+const ctx = document.getElementById('canvas2').getContext('2d');
+ctx.clearRect(0, 0, canvas2.width, canvas2.height);
      let height = Number(prompt("Height: "));
      let width = Number(prompt("Width: "));
      let xcoor = Number(prompt("X: "));
@@ -57,8 +59,10 @@ function drawRectangle() {
      if (ycoor < 1){
        height=alert("The entered Y-coordinate is too small")
      }
-     const ctx = document.getElementById('canvas2').getContext('2d');
-     ctx.strokeRect(height, width, xcoor, ycoor);
+     if (height>512 || width>1024 || xcoor<1 || ycoor<1){
+       height=alert("The rectangle is outside the canvas")
+     }
+     ctx.strokeRect(xcoor, ycoor, height, width);
 
 }
 
@@ -88,7 +92,15 @@ function drawRectangle() {
  */
 
 function drawColoredRectangle() {
-
+  const ctx = document.getElementById('canvas3').getContext('2d');
+  ctx.clearRect(0, 0, canvas3.width, canvas3.height);
+  let color = prompt("Color please")
+  if (color === 'black' || color === 'blue' || color === 'green' || color === 'orange' || color === 'purple' || color === 'red' || color === 'yellow') {
+        ctx.fillStyle = color;
+        ctx.fillRect(10, 10, 100, 50)
+    } else {
+        alert(color + ' is not a supported color.')
+    }
 }
 
 /*
