@@ -142,7 +142,9 @@ function drawTriangle() {
 if(isNaN(side1) || isNaN(side2) || isNaN(side3)){
   alert("One of the sides in not a number")
 }
-else
+else((side1+side2)>side3 && (side1+side3)>side2 && (side2+side3)>side1){
+
+}
 }
 
 /*
