@@ -133,7 +133,16 @@ function drawColoredRectangle() {
  */
 
 function drawTriangle() {
+  const ctx = document.getElementById('canvas4').getContext('2d');
+  ctx.clearRect(0, 0, canvas4.width, canvas4.height);
+  let side1= Number(prompt("Length of side 1 please "));
+  let side2= Number(prompt("Length of side 2 please "));
+  let side3= Number(prompt("Length of side 3 please "));
 
+if(isNaN(side1) || isNaN(side2) || isNaN(side3)){
+  alert("One of the sides in not a number")
+}
+else
 }
 
 /*
