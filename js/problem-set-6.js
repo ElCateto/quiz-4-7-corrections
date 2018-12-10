@@ -143,7 +143,7 @@ if(isNaN(side1) || isNaN(side2) || isNaN(side3)){
   alert("One of the sides in not a number")
 }
 else((side1+side2)>side3 && (side1+side3)>side2 && (side2+side3)>side1){
-
+let
 }
 }
 
@@ -208,6 +208,8 @@ function drawStar() {
  */
 
 function drawStopSign() {
+  const ctx = document.getElementById('canvas7').getContext('2d');
+  ctx.clearRect(0, 0, canvas4.width, canvas4.height);
 
 }
 
