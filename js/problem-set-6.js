@@ -139,12 +139,18 @@ function drawTriangle() {
   let side2= Number(prompt("Length of side 2 please "));
   let side3= Number(prompt("Length of side 3 please "));
 
-if(isNaN(side1) || isNaN(side2) || isNaN(side3)){
-  alert("One of the sides in not a number")
-}
-else((side1+side2)>side3 && (side1+side3)>side2 && (side2+side3)>side1){
-let
-}
+  if(isNaN(side1) || isNaN(side2) || isNaN(side3)){
+    alert("One of the sides in not a number");
+  }
+  else if ((side1+side2)>side3 && (side1+side3)>side2 && (side2+side3)>side1) {
+    ctx.beginPath();
+    ctx.moveTo(10, 10);
+    ctx.lineTo(side1, 10);
+    ctx.lineTo(10, side2);
+    ctx.stroke();
+    ctx.closePath();
+
+  }
 }
 
 /*
