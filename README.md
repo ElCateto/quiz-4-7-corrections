@@ -7,11 +7,25 @@ I got 0.29/1 pts on this quistion. I missed `symbol`, `null`, `undefined`, and `
 // budget = 500000
 // let costOfcar = Number(prompt("how much does the car cost?"));
 // function carCost(){
-   if(costOfcar < 500000){ 
-   document.getElementById("output").innerHTML = "You can buy the car."
-   }
-    else(costOfcar > 500000){
-    document.getElementById("output").innerHTML = "You can not buy the car."
-   }
-  }
+//   if(costOfcar < 500000){ 
+//    document.getElementById("output").innerHTML = "You can buy the car."
+//   }
+//   else(costOfcar > 500000){
+//    document.getElementById("output").innerHTML = "You can not buy the car."
+//   }
+//  }
 ```
+
+## Question 10: Which of the following statements declares and initializes a variable called x with the value 27? Select all that apply.
+
+I got this one wrong. The correct answer is let x; x = 27;. It is correct because it is the only one that declares and initializes the variable.
+
+```
+// function variableX(){
+//    let x;
+//    x = 27;
+//    document.getElementById("output").innerHTML = "X is" + x + "."
+// }
+```
+
+# Quiz 5
