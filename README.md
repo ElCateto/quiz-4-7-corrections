@@ -29,3 +29,71 @@ I got this one wrong. The correct answer is let x; x = 27;. It is correct becaus
 ```
 
 # Quiz 5
+
+## Question 1: Which of the following are valid logical operators in JavaScript? Select all that apply.
+
+I got 0 on this, but i got 2 out of all the multiple choice, but answerd many wrong. the ansers that are corrrec tare so, because they are used in logical things
+
+## Question 3: Which of the following are valid relational operators in JavaScript? Select all that apply.
+i got 0.63, 2 are missing. The correct answers are correct because they are used in relational operations
+
+## Question 4
+I answered a < b || a < c; c > a && c > b, the coorrect answer is a < b && a < c; c > a || c > b. It is so becasue it is how the operators work. Correct answer:
+
+```
+let a = 3;
+let b = 7;
+let c = 9;
+
+if (a < b && a < c) {
+    console.log("we know for sure that a is the smallest of the three.");
+}
+
+if (c > a || c > b) {
+    console.log("we know for sure that c is not the smallest of the three.");
+}
+```
+## Q 5
+I got this one wrong, I choosefalse, false. It should have been true, true. the code segment was: 
+let a = "hello";
+console.log(!a);
+console.log(!!a);
+
+## Q 6
+I got this wrong becasue i chose an incorrect from of an if statement. The one i chose had a ; after the closing ). Should have chosen if (a < b)
+{
+    // do something
+}
+because it does not m,atter where the { are, as long as it is still after the ) it gets the job done.
+
+## Q 8
+Mr. Wilson you made a mistake here. you put a < for the right answer(let status = (studentGrade < 88) ? "ND" : "HR";), so i was thrown off, but i should have knownn that the ? and : are ion the right places. This is partly your fault. with the < it would give different answers.
+
+## Q 9
+I got this wrong because I chose the one with "  on the numbers. The " would make the numbers strings, woch is wrong. The correct anser id the one that is the same except for the " around the number, it is right because it reads the enterend numbers.
+
+## Q 10
+I chose and if-else statemnet when it asked me for the simplest way to do this. i should have chosen a swich statemnet. It is right because swich statemnt takes less lines of code, and it is more simple to understand at a qiuck glace
+```
+// switch (score) {
+//   case >= 90: letterGrade = "A"; break;
+//   case >= 80: letterGrade = "B"; break;
+//   case >= 70: letterGrade = "C"; break;
+//   case >= 60: letterGrade = "D"; break;
+//   default: letterGrade = "F"; break;
+// }
+```
+
+## Q 12
+I chose the one with x++, which will make it run again, but the x-- should stop, wich is the right answer. The one with the correct formating of course.
+
+## Q 14
+I chose the one that tells you to repeat the whole procces with setup as the first step, and update scond to last. I shopuld have chose:
+```
+Setup
+Expression
+Loop body
+Update
+Return to Step 2
+```
+because this is the one with correct steps and tells you ti go to step 2 because you do not need to set up spmething that is already set up.
