@@ -97,3 +97,42 @@ Update
 Return to Step 2
 ```
 because this is the one with correct steps and tells you ti go to step 2 because you do not need to set up spmething that is already set up.
+
+# Quiz 6
+
+## Q 1
+I missed one. The answer i should also have chosen should have been:
+function multiply(x, y, z) {
+    return x * y * z;
+}
+It is also correct because that is also a correct way of getting the answer.
+
+## Q 2
+I got this wrong, it told me to revise it. In the revision by creating an array there is no need for prompts any more, so the correct one had to be the one with out the prompt.
+
+## Q 3: Which of the following built-in functions are designed to return a value? Select all that apply.
+Only prompt returns value. Thst id the right answer because the others there is no number to user imput.
+
+## Q 4: What happens if I pass in fewer arguments than there are parameters in the function definition?
+ The parameters that did not receive arguments will be undefined. Correct answer is this because, if it does not ahve naything to go with it it is left alone.
+ 
+ ## Q 6: Which of the following built-in functions accept parameters? Select all that apply.
+ I got one out of the 3. i should have also said console.log and alert. Both are correct because you can enter parameters or  i can ahave parameters inveded into it.
+ 
+ ## Q 7
+ Should have known that it might return values. I got it correct but answered an extra answer.
+ 
+ ## Q 9
+ I got a 0.33 on this. Just needed 2 more answers. Tehy were also correct becasue the code would also output those two.
+ 
+ ## Q 10
+ They both run infinetly is the right answer. They have no stopping point.
+ 
+ ## Q 11: A variable declared inside of an if statement can only be referenced from within that same scope. What is the accuracy of the above statement?
+ It is only for const and let, because that is how it works. I answered var.
+ 
+ ## Q 13
+ I said that 1 and 2 would be printed out, i was wrong. It will have a ReferenceError on line 10. It is correct because it is outise the if statement ans the variable wa declared with var.
+ 
+ ## Q 14
+ I said a ReferenceError on line 10, it is that both 1 and 2 are printed out. It is so because the variable is declared with let.
